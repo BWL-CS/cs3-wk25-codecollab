@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 
-# IN TERMINAL (ctrl + `) TYPE THE FOLLOWING:
+# IN TERMINAL (ctrl + `) TYPE THE FOLLOWING: 
 # pip install flask
 # pip install flask_sqlalchemy
+# flask run
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///outfits.db'
